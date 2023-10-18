@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppHeader {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 230px;
+  height: 5%;
+  width: 81%;
+  background-color: #e6e9ee;
+  color: #050505;
+  padding: 20px;
+}
+
+.AppHeader #searchh{
+  margin-left: 65%;
+  border-radius: 8px;
+  border-color: #fff;
+}
+
+.AppHeader #helloo{
+  margin-left: 2%;
+}
+
+.SideMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 190px;
+  background-color: #050141;
+  color: #fff;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Menu{
+  background-color: #050141;
+  color: #ffffff;
+}
+
+.PageContent {
+  display: flex;
+  /* align-items: center; */
+  position: fixed;
+  top: 70px;
+  left: 230px;
+  height: 60%;
+  width: 81%;
+  background-color: #e6e9ee;
+  color: #050505;
+  padding: 20px;
+}
+
+.DashCard{
+}
+
+.content{
+}
+
+.dashboard-card {
+  width: 240px; 
+}
+
+.card-content {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sentence {
+  white-space: nowrap; /* Prevents the sentence from wrapping */
+}
+
+.ant-dropdown-link{
+  color: #516169;
+}
+
+.DashChart{
+  margin-top: 20px;
+  margin-left: 27px;;
+}
+
+.AppFooter {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 525px;
+  left: 230px;
+  height: 19%;
+  width: 81%;
+  background-color: #e6e9ee;
+  color: #050505;
+  padding: 20px;
+}
+
+.AppFooter #searchh1{
+  border-radius: 8px;
+  border-color: #e6e9ee;
+  font-size: 10px;
+  margin-left: 600px;
+  margin-top: -10px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
